@@ -21,7 +21,7 @@ def center_handle(x, y, width, height):
     cy = y+y1
     return cx, cy
 
-capture = cv2.VideoCapture('Videos/car.mp4')
+capture = cv2.VideoCapture('car.mp4')
 #Initialize Subtractor, Object Detection from Stable Camera
 sub = cv2.bgsegm.createBackgroundSubtractorMOG() 
 
